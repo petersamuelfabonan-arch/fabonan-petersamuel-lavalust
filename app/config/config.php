@@ -41,9 +41,9 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 | This file is for setting-up default settings.
 |
 */
-
+$config['base_url'] = 'https://fabonan-petersamuel.onrender.com';
 /*
-| -------------------------------------------------------------------
+
 |  Your Own Configs
 | -------------------------------------------------------------------
 | For easy access on your config, just put them below
