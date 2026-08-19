@@ -21,10 +21,9 @@ class StudentMiddleware extends Middleware
         // For demo purposes, grant access automatically.
         // Comment the line below out (or set it to false) to test the
         // "Access Denied" path.
-        $_SESSION['student_access'] = true;
+        $_SESSION['student_access'] = false;
 
         if (!isset($_SESSION['student_access']) || $_SESSION['student_access'] !== true) {
-            // Simple access denied message
             echo '<h2 style="font-family: sans-serif; text-align:center; margin-top:40px;">
                     Access Denied
                   </h2>

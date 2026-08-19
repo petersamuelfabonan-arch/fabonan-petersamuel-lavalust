@@ -49,6 +49,6 @@ $router->get('/', 'StudentController::index');
 // Student home page
 $router->get('/student', 'StudentController::index');
  
-// Student profile page — protected by StudentMiddleware
-$router->get('/student/profile', 'StudentController::profile', ['middleware' => 'StudentMiddleware']);
+
  
+$router->get('/student/profile', 'StudentController::profile')->middleware('StudentMiddleware');
