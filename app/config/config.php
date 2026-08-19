@@ -358,7 +358,5 @@ $config['csrf_regenerate']         = FALSE;
 
 
 
-$config['middlewares'] = [
-    'StudentMiddleware' => new StudentMiddleware(),
-];
+
 ?>
