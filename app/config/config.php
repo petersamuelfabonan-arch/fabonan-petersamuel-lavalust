@@ -329,6 +329,16 @@ $config['timestamps']               = FALSE;
 $config['created_at_column']        = 'created_at';
 $config['updated_at_column']        = 'updated_at';
 
+
+/*
+|--------------------------------------------------------------------------
+| Middlewares
+|--------------------------------------------------------------------------
+*/
+$config['middlewares'] = [
+    'StudentMiddleware' => 'StudentMiddleware',
+];
+
 /*
 |--------------------------------------------------------------------------
 | Cross Site Request Forgery
